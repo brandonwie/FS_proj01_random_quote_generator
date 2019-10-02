@@ -83,7 +83,6 @@ function randomBgColor() {
   const green = Math.floor(Math.random() * 256);
   const blue = Math.floor(Math.random() * 256);
   const bgColor = `rgb(${red},${green},${blue})`;
-  console.log(bgColor);
   document.querySelector(".bgcolor").style.backgroundColor = `${bgColor}`;
   document.querySelector("#loadQuote").style.backgroundColor = `${bgColor}`;
 }
